@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:text="List" >
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40px"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:textSize="25px" />
+
+    <com.ngohung.view.ExampleContactListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/background4"
+        android:cacheColorHint="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:longClickable="true" />
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip" />
+
+</LinearLayout>
